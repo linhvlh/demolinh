@@ -4,18 +4,15 @@
 	1. Lectora Inspire.
 	2. Lectora Inspir creating your template.
 	3. Copyright © ITC Learning Australasia.
-	4. Signature: volehonglinh3107.com
+	4. Signature: nguyennguf@gmail.com
 	5. www.itclearning.com
 -->
 <html>
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Lectora Inspire for Google">
-<meta name="ad.size" content="width=320,height=480">
-<meta name="template" content="Banner 3.0.0">
-<meta name="environment" content="gwd-dv360">
-<meta name="viewport" content="width=device-width, user-scalable=no">
-<title>320x480</title>
+<meta name="ad.size" content="width=300,height=600">
+<title>300x600</title>
 <!-- write your code here -->
 <!--script src="https://s0.2mdn.net/ads/studio/cached_libs/createjs_2015.11.26_54e1c3722102182bb133912ad4442e19_min.js"></script>
 <script src="https://s0.2mdn.net/ads/studio/cached_libs/easeljs_0.8.2_937c3ec68021211c056f61c9ceaccffd_min.js"></script-->
@@ -23,7 +20,7 @@
 <script type="text/javascript">
 var clickTag = "http://www.google.com";
 </script>
-<script src="320x480.js"></script>
+<script src="300x600.js?1694498083907"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -51,7 +48,7 @@ function handleComplete(evt,comp) {
 	for(i=0; i<ssMetadata.length; i++) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
-	exportRoot = new lib._320x480();
+	exportRoot = new lib._300x600();
 	stage = new lib.Stage(canvas);	
 	//Registers the "tick" event listener.
 	fnStartAnimation = function() {
@@ -68,10 +65,10 @@ function handleComplete(evt,comp) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:320px; height:480px">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:300px; height:600px">
 		<a href="javascript:window.open(window.clickTag)">
-		<canvas id="canvas" width="320" height="480" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas></a>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:320px; height:480px; position: absolute; left: 0px; top: 0px; display: block;">
+		<canvas id="canvas" width="300" height="600" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas></a>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:300px; height:600px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
 </body>
