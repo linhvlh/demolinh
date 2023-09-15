@@ -324,7 +324,7 @@ p.nominalBounds = new cjs.Rectangle(-22.3,-0.9,123.8,25.099999999999998);
 	this.instance_1.setTransform(211,116.9,1,1,0,0,0,66.5,13.3);
 	this.instance_1.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({x:128,alpha:1},8,cjs.Ease.quadOut).wait(262).to({startPosition:0},0).to({_off:true},1).wait(4023));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({x:132.5,alpha:1},8,cjs.Ease.quadOut).wait(262).to({startPosition:0},0).to({_off:true},1).wait(4023));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-48.2,138.2,441.7,39.60000000000002);
@@ -477,12 +477,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1694764406486", id:"bg"},
-		{src:"images/h2.png?1694764406486", id:"h2"},
-		{src:"images/h3.png?1694764406486", id:"h3"},
-		{src:"images/light.png?1694764406486", id:"light"},
-		{src:"images/Logo.png?1694764406486", id:"Logo"},
-		{src:"images/tagline.png?1694764406486", id:"tagline"}
+		{src:"images/bg.jpg?1694768468865", id:"bg"},
+		{src:"images/h2.png?1694768468865", id:"h2"},
+		{src:"images/h3.png?1694768468865", id:"h3"},
+		{src:"images/light.png?1694768468865", id:"light"},
+		{src:"images/Logo.png?1694768468865", id:"Logo"},
+		{src:"images/tagline.png?1694768468865", id:"tagline"}
 	],
 	preloads: []
 };
