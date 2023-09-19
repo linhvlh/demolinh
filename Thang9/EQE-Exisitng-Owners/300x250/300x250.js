@@ -306,12 +306,12 @@ p.nominalBounds = new cjs.Rectangle(16,-17.7,387.2,41.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
-	this.frame_219 = function() {
+	this.frame_229 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(219).call(this.frame_219).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(229).call(this.frame_229).wait(1));
 
 	// logo copy
 	this.instance = new lib.Symbol13copy("synched",0);
@@ -319,14 +319,14 @@ p.nominalBounds = new cjs.Rectangle(16,-17.7,387.2,41.5);
 	this.instance.setTransform(150.5,224.5,1,1,0,0,0,15.5,15.5);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(10).to({_off:false},0).wait(86).to({startPosition:55},0).to({y:213.5,startPosition:69},14,cjs.Ease.get(1)).wait(110));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(10).to({_off:false},0).wait(115).to({startPosition:55},0).to({y:213.5,startPosition:69},14,cjs.Ease.get(1)).wait(91));
 
 	// logo
 	this.instance_1 = new lib.Symbol13("synched",0);
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(150.5,220.5,1,1,0,0,0,15.5,15.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(220));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(230));
 
 	// Layer_12
 	this.instance_2 = new lib.Symbol18();
@@ -335,7 +335,7 @@ p.nominalBounds = new cjs.Rectangle(16,-17.7,387.2,41.5);
 	this.instance_2.alpha = 0.8008;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(166).to({_off:false},0).wait(54));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(195).to({_off:false},0).wait(35));
 
 	// cta
 	this.instance_3 = new lib.Symbol11("synched",0);
@@ -343,7 +343,7 @@ p.nominalBounds = new cjs.Rectangle(16,-17.7,387.2,41.5);
 	this.instance_3.setTransform(152.55,86.1,1.05,1.05,0,0,0,43.4,7.7);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(121).to({_off:false},0).wait(99));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(150).to({_off:false},0).wait(80));
 
 	// Layer_9
 	this.instance_4 = new lib.Symbol16("synched",0);
@@ -351,7 +351,7 @@ p.nominalBounds = new cjs.Rectangle(16,-17.7,387.2,41.5);
 	this.instance_4.setTransform(149.45,52.9,0.72,0.72,0,0,0,103.4,8.2);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(96).to({_off:false},0).wait(124));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(125).to({_off:false},0).wait(105));
 
 	// Layer_6
 	this.instance_5 = new lib.Symbol15("synched",0);
@@ -359,14 +359,14 @@ p.nominalBounds = new cjs.Rectangle(16,-17.7,387.2,41.5);
 	this.instance_5.setTransform(425,125,1,1,0,0,0,125,125);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(89).to({_off:false},0).to({x:125},16,cjs.Ease.get(1)).wait(115));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(118).to({_off:false},0).to({x:125},16,cjs.Ease.get(1)).wait(96));
 
 	// Layer_8
 	this.instance_6 = new lib.Symbol1("synched",0);
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(150,300,1,1,0,0,0,150,300);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(89).to({startPosition:65},0).to({x:-150,startPosition:73},16,cjs.Ease.get(1)).wait(115));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(118).to({startPosition:65},0).to({x:-150,startPosition:73},16,cjs.Ease.get(1)).wait(96));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-300,0,900,250);
@@ -394,10 +394,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Background1.jpg?1695114509671", id:"Background1"},
-		{src:"images/Background2.jpg?1695114509671", id:"Background2"},
-		{src:"images/EQE.png?1695114509671", id:"EQE"},
-		{src:"images/logo.png?1695114509671", id:"logo"}
+		{src:"images/Background1.jpg?1695114920157", id:"Background1"},
+		{src:"images/Background2.jpg?1695114920157", id:"Background2"},
+		{src:"images/EQE.png?1695114920157", id:"EQE"},
+		{src:"images/logo.png?1695114920157", id:"logo"}
 	],
 	preloads: []
 };
