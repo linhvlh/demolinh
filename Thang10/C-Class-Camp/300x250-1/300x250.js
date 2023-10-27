@@ -365,21 +365,21 @@ p.nominalBounds = new cjs.Rectangle(-22,-22,337.4,276.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(230));
 
-	// Layer_8 copy
-	this.instance_6 = new lib.Symbol1copy("synched",0);
+	// Layer_7
+	this.instance_6 = new lib.Symbol5("synched",0);
 	this.instance_6.parent = this;
-	this.instance_6.setTransform(150,300,1,1,0,0,0,150,300);
+	this.instance_6.setTransform(109.5,170.8,1,1,0,0,0,96.5,11.8);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(118).to({_off:false},0).wait(112));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(4).to({_off:false},0).wait(111).to({startPosition:110},0).to({x:131,alpha:0,startPosition:120},16,cjs.Ease.get(1)).wait(99));
 
-	// Layer_7
-	this.instance_7 = new lib.Symbol5("synched",0);
+	// Layer_8 copy
+	this.instance_7 = new lib.Symbol1copy("synched",0);
 	this.instance_7.parent = this;
-	this.instance_7.setTransform(109.5,170.8,1,1,0,0,0,96.5,11.8);
+	this.instance_7.setTransform(150,300,1,1,0,0,0,150,300);
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(4).to({_off:false},0).wait(111).to({startPosition:110},0).to({x:131,alpha:0,startPosition:120},16,cjs.Ease.get(1)).wait(99));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(118).to({_off:false},0).wait(112));
 
 	// Layer_8
 	this.instance_8 = new lib.Symbol1("synched",0);
@@ -414,10 +414,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg1.jpg?1698388035757", id:"bg1"},
-		{src:"images/bg2.jpg?1698388035757", id:"bg2"},
-		{src:"images/logomec.png?1698388035757", id:"logomec"},
-		{src:"images/logo.png?1698388035757", id:"logo"}
+		{src:"images/bg1.jpg?1698393384661", id:"bg1"},
+		{src:"images/bg2.jpg?1698393384661", id:"bg2"},
+		{src:"images/logomec.png?1698393384661", id:"logomec"},
+		{src:"images/logo.png?1698393384661", id:"logo"}
 	],
 	preloads: []
 };
