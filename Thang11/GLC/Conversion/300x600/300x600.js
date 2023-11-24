@@ -525,14 +525,14 @@ p.nominalBounds = new cjs.Rectangle(-48.7,-94.6,396.5,786.4);
 
 	// Layer_6
 	this.instance_3 = new lib.Symbol23("synched",0);
-	this.instance_3.setTransform(139.1,71,1,1,0,0,0,113.1,11);
+	this.instance_3.setTransform(142.1,71,1,1,0,0,0,113.1,11);
 	this.instance_3._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(235).to({_off:false},0).wait(48));
 
 	// Layer_7
 	this.instance_4 = new lib.Symbol5("synched",0);
-	this.instance_4.setTransform(107.5,432.8,1,1,0,0,0,96.5,11.8);
+	this.instance_4.setTransform(110.5,432.8,1,1,0,0,0,96.5,11.8);
 	this.instance_4._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(111).to({_off:false},0).wait(172));
@@ -606,10 +606,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg1.jpg?1700845242018", id:"bg1"},
-		{src:"images/bg2.jpg?1700845242018", id:"bg2"},
-		{src:"images/bg3.jpg?1700845242018", id:"bg3"},
-		{src:"images/logo.png?1700845242018", id:"logo"}
+		{src:"images/bg1.jpg?1700847578523", id:"bg1"},
+		{src:"images/bg2.jpg?1700847578523", id:"bg2"},
+		{src:"images/bg3.jpg?1700847578523", id:"bg3"},
+		{src:"images/logo.png?1700847578523", id:"logo"}
 	],
 	preloads: []
 };
