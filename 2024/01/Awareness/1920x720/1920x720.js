@@ -624,7 +624,7 @@ p.nominalBounds = new cjs.Rectangle(-148.1,-42.3,366.5,94.6);
 	// Layer_2
 	this.instance = new lib.Symbol23copy("synched",0);
 	this.instance.parent = this;
-	this.instance.setTransform(147.2,94,1,1,0,0,0,167.2,45);
+	this.instance.setTransform(147.2,94,0.85,0.85,0,0,0,167.1,45.1);
 	this.instance._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(15).to({_off:false},0).to({_off:true},691).wait(220));
@@ -638,7 +638,7 @@ p.nominalBounds = new cjs.Rectangle(-148.1,-42.3,366.5,94.6);
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({x:97.25,alpha:1},11,cjs.Ease.get(1)).to({x:96.5},9,cjs.Ease.get(1)).wait(906));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-212.8,-82.3,698.2,238.89999999999998);
+p.nominalBounds = new cjs.Rectangle(-212.8,-82.3,698.2,229.3);
 
 
 (lib.Symbol3 = function(mode,startPosition,loop) {
@@ -729,7 +729,7 @@ p.nominalBounds = new cjs.Rectangle(1000.7,149,878.8999999999999,493.6);
 	this.instance_3.setTransform(392.4,235.5,1,1,0,0,0,103.4,7.5);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(252).to({_off:false},0).wait(56));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(256).to({_off:false},0).wait(52));
 
 	// Layer_7
 	this.instance_4 = new lib.Symbol21("synched",0);
@@ -802,12 +802,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1704348439685", id:"bg"},
-		{src:"images/bg2.jpg?1704348439685", id:"bg2"},
-		{src:"images/gls.png?1704348439685", id:"gls"},
-		{src:"images/logo.png?1704348439685", id:"logo"},
-		{src:"images/x1.png?1704348439685", id:"x1"},
-		{src:"images/x2.png?1704348439685", id:"x2"}
+		{src:"images/bg.jpg?1704366113830", id:"bg"},
+		{src:"images/bg2.jpg?1704366113830", id:"bg2"},
+		{src:"images/gls.png?1704366113830", id:"gls"},
+		{src:"images/logo.png?1704366113830", id:"logo"},
+		{src:"images/x1.png?1704366113830", id:"x1"},
+		{src:"images/x2.png?1704366113830", id:"x2"}
 	],
 	preloads: []
 };
