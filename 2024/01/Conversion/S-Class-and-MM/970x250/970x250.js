@@ -472,10 +472,10 @@ p.nominalBounds = new cjs.Rectangle(-5.4,4.4,176.4,91.89999999999999);
 	// Layer_5
 	this.instance_3 = new lib.Symbol17("synched",0);
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(216.55,-86.4,1.3,1.3,0,0,0,103.5,7.4);
+	this.instance_3.setTransform(216.55,-66.4,1.3,1.3,0,0,0,103.5,7.4);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(70).to({_off:false},0).wait(117));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(70).to({_off:false},0).wait(53).to({startPosition:53},0).to({y:-86.4,startPosition:64},11,cjs.Ease.get(1)).wait(53));
 
 	// t1
 	this.instance_4 = new lib.Symbol9("synched",0);
@@ -524,9 +524,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1704856133391", id:"bg"},
-		{src:"images/logo.png?1704856133391", id:"logo"},
-		{src:"images/xe.png?1704856133391", id:"xe"}
+		{src:"images/bg.jpg?1704859640966", id:"bg"},
+		{src:"images/logo.png?1704859640966", id:"logo"},
+		{src:"images/xe.png?1704859640966", id:"xe"}
 	],
 	preloads: []
 };
