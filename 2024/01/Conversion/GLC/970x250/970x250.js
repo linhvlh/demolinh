@@ -440,10 +440,10 @@ p.nominalBounds = new cjs.Rectangle(1002.7,149,877.8999999999999,493.6);
 	// t2
 	this.instance_3 = new lib.Symbol5("synched",0);
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(198.5,33.8,1,1,0,0,0,96.5,11.8);
+	this.instance_3.setTransform(198.5,73.8,1,1,0,0,0,96.5,11.8);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(70).to({_off:false},0).wait(117));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(70).to({_off:false},0).wait(53).to({startPosition:53},0).to({y:33.8,startPosition:64},11,cjs.Ease.get(1)).wait(53));
 
 	// t1
 	this.instance_4 = new lib.Symbol9("synched",0);
@@ -492,9 +492,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1704794025859", id:"bg"},
-		{src:"images/gls.png?1704794025859", id:"gls"},
-		{src:"images/logo.png?1704794025859", id:"logo"}
+		{src:"images/bg.jpg?1704859531037", id:"bg"},
+		{src:"images/gls.png?1704859531037", id:"gls"},
+		{src:"images/logo.png?1704859531037", id:"logo"}
 	],
 	preloads: []
 };
