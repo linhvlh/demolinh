@@ -32,8 +32,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,727,582);
 
 	// Layer_3
 	this.shape = new cjs.Shape();
-	this.shape.graphics.lf(["#C73A2B","#711D18"],[0,1],-0.5,-40.2,-0.5,39.7).s().p("AgqGQIAAsfIBVAAIAAMfg");
-	this.shape.setTransform(236.05,45.925);
+	this.shape.graphics.lf(["#C73A2B","#711D18"],[0,1],-0.3,-40.2,-0.3,39.7).s().p("AgWGQIAAsfIAtAAIAAMfg");
+	this.shape.setTransform(234.325,46.975);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
@@ -475,9 +475,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1707128666924", id:"bg"},
-		{src:"images/logo.png?1707128666924", id:"logo"},
-		{src:"images/xe.png?1707128666924", id:"xe"}
+		{src:"images/bg.jpg?1707275227107", id:"bg"},
+		{src:"images/logo.png?1707275227107", id:"logo"},
+		{src:"images/xe.png?1707275227107", id:"xe"}
 	],
 	preloads: []
 };
