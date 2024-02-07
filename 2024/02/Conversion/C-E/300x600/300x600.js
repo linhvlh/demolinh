@@ -24,7 +24,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,200);
 (lib.x1 = function() {
 	this.initialize(img.x1);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,700,510);
+p.nominalBounds = new cjs.Rectangle(0,0,3468,1828);
 
 
 (lib.x2 = function() {
@@ -44,7 +44,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2178,1626);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-91,-236,1001.9,747.9);
+p.nominalBounds = new cjs.Rectangle(-91,-236,1001.8,747.9);
 
 
 (lib.Symbol26 = function(mode,startPosition,loop) {
@@ -53,12 +53,12 @@ p.nominalBounds = new cjs.Rectangle(-91,-236,1001.9,747.9);
 	// Layer_1
 	this.instance = new lib.x1();
 	this.instance.parent = this;
-	this.instance.setTransform(59,158,0.82,0.82);
+	this.instance.setTransform(-343,-71,0.38,0.38);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(59,158,574,418.20000000000005);
+p.nominalBounds = new cjs.Rectangle(-343,-71,1317.8,694.6);
 
 
 (lib.Symbol24 = function(mode,startPosition,loop) {
@@ -415,10 +415,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,600);
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(433.5,255.5,1,1,0,0,0,433.5,255.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(69).to({startPosition:0},0).to({regX:433.6,scaleX:1.5999,scaleY:1.5999,x:782,y:149.7},16,cjs.Ease.get(1)).wait(98).to({scaleX:1.6,scaleY:1.6},0).to({scaleX:1.5499,scaleY:1.5499,x:-26.65,y:369.7,alpha:0},16,cjs.Ease.get(1)).wait(641));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(69).to({startPosition:0},0).to({regX:433.6,scaleX:1.62,scaleY:1.62,x:787.9,y:149.7},16,cjs.Ease.get(1)).wait(98).to({regY:255.4,y:149.55},0).to({regY:255.5,scaleX:1.5499,scaleY:1.5499,x:-26.65,y:369.7,alpha:0},16,cjs.Ease.get(1)).wait(641));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-607.2,-509.3,2732.3999999999996,1376);
+p.nominalBounds = new cjs.Rectangle(-1230.3,-509.3,3355.3999999999996,1449.6);
 
 
 (lib.Symbol23 = function(mode,startPosition,loop) {
@@ -614,7 +614,7 @@ p.nominalBounds = new cjs.Rectangle(-98.2,-425.6,259.4,83.80000000000001);
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(276));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-141.6,0,641.9,602.2);
+p.nominalBounds = new cjs.Rectangle(-288,0,788.3,602.2);
 
 
 // stage content:
@@ -629,7 +629,7 @@ p.nominalBounds = new cjs.Rectangle(-141.6,0,641.9,602.2);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(150,300,192.10000000000002,302.20000000000005);
+p.nominalBounds = new cjs.Rectangle(70.4,300,271.70000000000005,302.20000000000005);
 // library properties:
 lib.properties = {
 	id: 'CC7D37763753984998DC0DE70763E649',
@@ -639,10 +639,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1707189355944", id:"bg"},
-		{src:"images/logo.png?1707189355944", id:"logo"},
-		{src:"images/x1.png?1707189355944", id:"x1"},
-		{src:"images/x2.png?1707189355944", id:"x2"}
+		{src:"images/bg.jpg?1707279198895", id:"bg"},
+		{src:"images/logo.png?1707279198895", id:"logo"},
+		{src:"images/x1.png?1707279198895", id:"x1"},
+		{src:"images/x2.png?1707279198895", id:"x2"}
 	],
 	preloads: []
 };
