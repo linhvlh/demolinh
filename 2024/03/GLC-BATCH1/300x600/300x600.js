@@ -442,7 +442,7 @@ p.nominalBounds = new cjs.Rectangle(-58.2,-15.1,205.39999999999998,45.3);
 	// t1
 	this.instance_6 = new lib.Symbol19("synched",0);
 	this.instance_6.parent = this;
-	this.instance_6.setTransform(125.25,434.9,1,1,0,0,0,104.7,11.1);
+	this.instance_6.setTransform(125.7,435.1,1,1,0,0,0,104.7,11.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({_off:true},199).wait(109));
 
@@ -488,11 +488,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg1.jpg?1711607617139", id:"bg1"},
-		{src:"images/bg2.jpg?1711607617139", id:"bg2"},
-		{src:"images/bg3.jpg?1711607617139", id:"bg3"},
-		{src:"images/bg4.jpg?1711607617139", id:"bg4"},
-		{src:"images/logo.png?1711607617139", id:"logo"}
+		{src:"images/bg1.jpg?1711621443086", id:"bg1"},
+		{src:"images/bg2.jpg?1711621443086", id:"bg2"},
+		{src:"images/bg3.jpg?1711621443086", id:"bg3"},
+		{src:"images/bg4.jpg?1711621443086", id:"bg4"},
+		{src:"images/logo.png?1711621443086", id:"logo"}
 	],
 	preloads: []
 };
