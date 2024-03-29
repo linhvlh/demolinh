@@ -115,6 +115,20 @@ p.nominalBounds = new cjs.Rectangle(-126,-1.3,59.900000000000006,50.8);
 p.nominalBounds = new cjs.Rectangle(-32.7,-6.9,153.8,32.9);
 
 
+(lib.Symbol8 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.stardrive();
+	this.instance.parent = this;
+	this.instance.setTransform(0,0,0.126,0.126);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,241.1,53.6);
+
+
 (lib.Symbol7 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -155,20 +169,6 @@ p.nominalBounds = new cjs.Rectangle(2,-5,265.3,317.6);
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(0,0,203.7,31.4);
-
-
-(lib.Symbol3 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Layer_1
-	this.instance = new lib.stardrive();
-	this.instance.parent = this;
-	this.instance.setTransform(0,0,0.126,0.126);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,241.1,53.6);
 
 
 (lib.Symbol2 = function(mode,startPosition,loop) {
@@ -292,6 +292,21 @@ p.nominalBounds = new cjs.Rectangle(-40.3,-8.4,169.10000000000002,36.2);
 p.nominalBounds = new cjs.Rectangle(3.4,5.6,203.7,31.299999999999997);
 
 
+(lib.Symbol3 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.Symbol8("synched",0);
+	this.instance.parent = this;
+	this.instance.setTransform(120.55,26.75,1.2,1.2,0,0,0,120.5,26.7);
+	this.instance.alpha = 0;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({regY:26.8,scaleX:1,scaleY:1,x:120.5,y:26.8,alpha:1},13,cjs.Ease.get(1)).wait(3071));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-24,-5.3,289.3,64.3);
+
+
 (lib.main = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -409,12 +424,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1711702475116", id:"bg"},
-		{src:"images/logo.png?1711702475116", id:"logo"},
-		{src:"images/stardrive.png?1711702475116", id:"stardrive"},
-		{src:"images/x1.png?1711702475116", id:"x1"},
-		{src:"images/x2.png?1711702475116", id:"x2"},
-		{src:"images/x3.png?1711702475116", id:"x3"}
+		{src:"images/bg.jpg?1711704793033", id:"bg"},
+		{src:"images/logo.png?1711704793033", id:"logo"},
+		{src:"images/stardrive.png?1711704793033", id:"stardrive"},
+		{src:"images/x1.png?1711704793033", id:"x1"},
+		{src:"images/x2.png?1711704793033", id:"x2"},
+		{src:"images/x3.png?1711704793033", id:"x3"}
 	],
 	preloads: []
 };
