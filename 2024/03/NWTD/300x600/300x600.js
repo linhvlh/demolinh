@@ -251,7 +251,7 @@ p.nominalBounds = new cjs.Rectangle(12.4,-287.5,236.29999999999998,78.6999999999
 	this.instance.parent = this;
 	this.instance.setTransform(43.4,7.6,1,1,0,0,0,43.4,7.6);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({scaleX:1.1,scaleY:1.1},6,cjs.Ease.get(1)).to({scaleX:1,scaleY:1},6,cjs.Ease.get(1)).to({scaleX:1.1,scaleY:1.1},6,cjs.Ease.get(1)).to({scaleX:1,scaleY:1},6,cjs.Ease.get(1)).wait(66));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({scaleX:1.1,scaleY:1.1},5,cjs.Ease.get(1)).to({scaleX:1,scaleY:1},5,cjs.Ease.get(1)).to({scaleX:1.1,scaleY:1.1},5,cjs.Ease.get(1)).to({scaleX:1,scaleY:1},5,cjs.Ease.get(1)).wait(70));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-40.3,-8.4,169.10000000000002,36.2);
@@ -291,19 +291,19 @@ p.nominalBounds = new cjs.Rectangle(3.4,5.6,203.7,31.299999999999997);
 	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
-	this.frame_273 = function() {
+	this.frame_247 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(273).call(this.frame_273).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(247).call(this.frame_247).wait(1));
 
 	// logo
 	this.instance = new lib.Symbol13("synched",0);
 	this.instance.parent = this;
 	this.instance.setTransform(261.5,15.5,1,1,0,0,0,15.5,15.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(274));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(248));
 
 	// cta copy
 	this.instance_1 = new lib.Symbol11copy();
@@ -311,7 +311,7 @@ p.nominalBounds = new cjs.Rectangle(3.4,5.6,203.7,31.299999999999997);
 	this.instance_1.setTransform(148.5,481.8,1,1,0,0,0,43.5,7.8);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(84).to({_off:false},0).wait(190));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(84).to({_off:false},0).wait(164));
 
 	// cta
 	this.instance_2 = new lib.Symbol11("synched",0);
@@ -319,7 +319,7 @@ p.nominalBounds = new cjs.Rectangle(3.4,5.6,203.7,31.299999999999997);
 	this.instance_2.setTransform(148.5,481.8,1,1,0,0,0,43.5,7.8);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(39).to({_off:false},0).to({_off:true},135).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(39).to({_off:false},0).to({_off:true},45).wait(164));
 
 	// location
 	this.instance_3 = new lib.Symbol4("synched",0);
@@ -327,7 +327,7 @@ p.nominalBounds = new cjs.Rectangle(3.4,5.6,203.7,31.299999999999997);
 	this.instance_3.setTransform(150.5,170.8,1,1,0,0,0,104.5,19.8);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(19).to({_off:false},0).wait(255));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(19).to({_off:false},0).wait(229));
 
 	// text
 	this.instance_4 = new lib.Symbol19("synched",0);
@@ -335,7 +335,7 @@ p.nominalBounds = new cjs.Rectangle(3.4,5.6,203.7,31.299999999999997);
 	this.instance_4.setTransform(125.7,370.1,1,1,0,0,0,104.7,11.1);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(9).to({_off:false},0).wait(265));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(9).to({_off:false},0).wait(239));
 
 	// car3
 	this.instance_5 = new lib.Symbol6("synched",0);
@@ -344,7 +344,7 @@ p.nominalBounds = new cjs.Rectangle(3.4,5.6,203.7,31.299999999999997);
 	this.instance_5.alpha = 0;
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(254).to({_off:false},0).to({scaleX:1,scaleY:1,x:164,y:375,alpha:1},18,cjs.Ease.get(1)).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(228).to({_off:false},0).to({scaleX:1,scaleY:1,x:164,y:375,alpha:1},18,cjs.Ease.get(1)).wait(2));
 
 	// car2
 	this.instance_6 = new lib.Symbol7("synched",0);
@@ -353,7 +353,7 @@ p.nominalBounds = new cjs.Rectangle(3.4,5.6,203.7,31.299999999999997);
 	this.instance_6.alpha = 0;
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(128).to({_off:false},0).to({scaleX:1,scaleY:1,x:165.5,y:409,alpha:1},18,cjs.Ease.get(1)).wait(95).to({startPosition:0},0).to({regX:128.6,regY:141.1,scaleX:1.1,scaleY:1.1,x:165.55,y:426.65,alpha:0},16,cjs.Ease.get(1)).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(128).to({_off:false},0).to({scaleX:1,scaleY:1,x:165.5,y:409,alpha:1},18,cjs.Ease.get(1)).wait(69).to({startPosition:0},0).to({regX:128.6,regY:141.1,scaleX:1.1,scaleY:1.1,x:165.55,y:426.65,alpha:0},16,cjs.Ease.get(1)).wait(17));
 
 	// car1
 	this.instance_7 = new lib.Symbol1("synched",0);
@@ -361,21 +361,21 @@ p.nominalBounds = new cjs.Rectangle(3.4,5.6,203.7,31.299999999999997);
 	this.instance_7.setTransform(164.5,294,0.5,0.5,0,0,0,126.8,168.2);
 	this.instance_7.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).to({regX:126.7,scaleX:1.02,scaleY:1.02,y:375.85,alpha:1},12,cjs.Ease.get(1)).to({regX:126.5,regY:168,scaleX:1,scaleY:1,y:372},14,cjs.Ease.get(1)).wait(89).to({startPosition:0},0).to({regY:168.1,scaleX:1.0999,scaleY:1.0999,x:164.45,y:385.65,alpha:0},16,cjs.Ease.get(1)).wait(143));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).to({regX:126.7,scaleX:1.02,scaleY:1.02,y:375.85,alpha:1},12,cjs.Ease.get(1)).to({regX:126.5,regY:168,scaleX:1,scaleY:1,y:372},14,cjs.Ease.get(1)).wait(89).to({startPosition:0},0).to({regY:168.1,scaleX:1.0999,scaleY:1.0999,x:164.45,y:385.65,alpha:0},16,cjs.Ease.get(1)).wait(117));
 
 	// star drive
 	this.instance_8 = new lib.Symbol3("synched",0);
 	this.instance_8.parent = this;
 	this.instance_8.setTransform(150.5,256.8,1,1,0,0,0,120.5,26.8);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(274));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(248));
 
 	// bg1
 	this.instance_9 = new lib.Symbol1copy("synched",0);
 	this.instance_9.parent = this;
 	this.instance_9.setTransform(146.05,297.95,1.1,1.1,0,0,0,150,299.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).to({regY:300,scaleX:1,scaleY:1,x:150,y:300},12,cjs.Ease.get(1)).wait(262));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).to({regY:300,scaleX:1,scaleY:1,x:150,y:300},12,cjs.Ease.get(1)).wait(236));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-18.9,-31.9,330,659.9);
@@ -403,12 +403,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1711692339187", id:"bg"},
-		{src:"images/logo.png?1711692339187", id:"logo"},
-		{src:"images/stardrive.png?1711692339187", id:"stardrive"},
-		{src:"images/x1.png?1711692339187", id:"x1"},
-		{src:"images/x2.png?1711692339187", id:"x2"},
-		{src:"images/x3.png?1711692339187", id:"x3"}
+		{src:"images/bg.jpg?1711696656307", id:"bg"},
+		{src:"images/logo.png?1711696656307", id:"logo"},
+		{src:"images/stardrive.png?1711696656307", id:"stardrive"},
+		{src:"images/x1.png?1711696656307", id:"x1"},
+		{src:"images/x2.png?1711696656307", id:"x2"},
+		{src:"images/x3.png?1711696656307", id:"x3"}
 	],
 	preloads: []
 };
