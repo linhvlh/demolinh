@@ -12,7 +12,7 @@ lib.ssMetadata = [];
 (lib.bg1 = function() {
 	this.initialize(img.bg1);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,900,750);
+p.nominalBounds = new cjs.Rectangle(0,0,900,748);
 
 
 (lib.bg2 = function() {
@@ -227,12 +227,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,48.3,69);
 	// Layer_2
 	this.instance = new lib.bg1();
 	this.instance.parent = this;
-	this.instance.setTransform(-3,-2,0.3378,0.3377);
+	this.instance.setTransform(-3,0,0.3369,0.3369);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-3,-2,304,253.3);
+p.nominalBounds = new cjs.Rectangle(-3,0,303.2,252);
 
 
 (lib.Symbol27 = function(mode,startPosition,loop) {
@@ -423,7 +423,7 @@ p.nominalBounds = new cjs.Rectangle(-37.1,-44.4,372,328.9);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(132.3,110.9,184.39999999999998,153.6);
+p.nominalBounds = new cjs.Rectangle(132.3,113.1,183.5,152.20000000000002);
 // library properties:
 lib.properties = {
 	id: 'CC7D37763753984998DC0DE70763E649',
@@ -433,11 +433,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg1.jpg?1712126529573", id:"bg1"},
-		{src:"images/bg2.jpg?1712126529573", id:"bg2"},
-		{src:"images/bg3.jpg?1712126529573", id:"bg3"},
-		{src:"images/bg4.jpg?1712126529573", id:"bg4"},
-		{src:"images/logo.png?1712126529573", id:"logo"}
+		{src:"images/bg1.jpg?1712133930584", id:"bg1"},
+		{src:"images/bg2.jpg?1712133930584", id:"bg2"},
+		{src:"images/bg3.jpg?1712133930584", id:"bg3"},
+		{src:"images/bg4.jpg?1712133930584", id:"bg4"},
+		{src:"images/logo.png?1712133930584", id:"logo"}
 	],
 	preloads: []
 };
