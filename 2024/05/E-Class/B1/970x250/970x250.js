@@ -358,7 +358,7 @@ p.nominalBounds = new cjs.Rectangle(-4.4,-2.9,165.6,13.6);
 	// Layer_6
 	this.instance_3 = new lib.Symbol5("synched",0);
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(383.1,84.65,1,0.8913,0,0,0,128.1,20.9);
+	this.instance_3.setTransform(366.9,84.85,0.85,0.7576,0,0,0,128.1,20.9);
 	this.instance_3._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(90).to({_off:false},0).wait(133));
@@ -382,7 +382,7 @@ p.nominalBounds = new cjs.Rectangle(-4.4,-2.9,165.6,13.6);
 	// t1
 	this.instance_6 = new lib.Symbol27("synched",0);
 	this.instance_6.parent = this;
-	this.instance_6.setTransform(395.5,115.95,1.02,1.02,0,0,0,64.2,13.7);
+	this.instance_6.setTransform(383.45,115.9,0.87,0.87,0,0,0,64.3,13.7);
 	this.instance_6._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(9).to({_off:false},0).to({_off:true},82).wait(132));
@@ -420,9 +420,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg1.jpg?1715662052303", id:"bg1"},
-		{src:"images/bg2.jpg?1715662052303", id:"bg2"},
-		{src:"images/logo.jpg?1715662052303", id:"logo"}
+		{src:"images/bg1.jpg?1715673176198", id:"bg1"},
+		{src:"images/bg2.jpg?1715673176198", id:"bg2"},
+		{src:"images/logo.jpg?1715673176198", id:"logo"}
 	],
 	preloads: []
 };
