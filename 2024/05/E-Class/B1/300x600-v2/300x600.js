@@ -74,20 +74,20 @@ p.nominalBounds = new cjs.Rectangle(3,0,303,475.7);
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AkSBtQgDgDAAgFQAAgFADgDQADgEAFAAQAFAAADAEQADADAAAFQAAAFgDADQgEADgEAAQgFAAgDgDgAF/BAQgNgKABgQQgBgaAcgKQAPgFAdgEIAAgFQAAgNgDgFQgHgHgOAAQgWAAgEATIgSAAQADgPAJgIQALgLAWAAQATAAALAIQAJAHABAPIABAQIAAAsQAAAVADAKIgRAAIgDgQQgKATgYAAQgQAAgKgIgAGWAPQgRAHAAAOQAAAKAHAGQAFAFALAAQASAAAHgOQAGgIgBgTIAAgLQgZAEgLAGgABhBBQgMgIgCgPQgCgGABgNIAAhIIARAAIAABIQAAASAEAGQAGAJAPAAQAQAAAHgNQAGgIAAgSIAAhCIARAAIAAAJIACgBIAEgGIAEgHIgBgBQgEAAgCgCQgDgEABgGQABgFAFgCQAEgCAEABQAFABACAFQADAFgCAGQgEAPgTAOIAAA+IAAAMIAAAIQAAAJADAHIgSAAIgBgIIgBgIQgEAIgFAEQgJAHgOAAQgOAAgKgHgAkpBAQgNgKAAgQQAAgaAcgKQAQgFAcgEIAAgFQAAgNgDgFQgHgHgNAAQgXAAgEATIgRAAQABgPAJgIQAMgLAWAAQATAAALAIQAIAHACAPIAAAQIAAAsQABAVADAKIgQAAIgEgQQgJATgZAAQgQAAgKgIgAkTAPQgQAHAAAOQAAAKAGAGQAHAFAKAAQARAAAJgOQAEgIAAgTIAAgLQgZAEgMAGgAALA8QgCgDAAgGIAAhWIgRAAIAAgOIARAAIAAgiIASAAIAAAiIAcAAIAAAOIgcAAIAAA8IAAAVQABAKALAAQAJAAAJgEIAAAPQgLAEgKAAQgSAAgHgLgAEoBGIgrh3IATAAIAhBjIAhhjIASAAIgqB3gAI5BFIAAhDQAAgUgDgHQgFgLgQAAQgRAAgJAOQgFAJAAAQIAABCIgSAAIAAhNIAAgeIgCgLIAQAAQACAHABAKQAMgUAYAAQAPAAALAIQAJAIACAPIAAAWIAABEgAhvBFIAAhDQAAgUgDgHQgGgLgPAAQgRAAgJAOQgFAJgBAQIAABCIgRAAIAAhNIgBgeIgBgLIAQAAQADAHgBAKQAMgUAYAAQAQAAAKAIQAKAIABAPIABAWIAABEgAlkBFIAAhDQABgUgEgHQgGgLgPAAQgQAAgJAOQgFAJgBARIAABBIgRAAIAAinIARAAIAAA/QANgRAWAAQANAAAJAGQAMAHACANQACAHAAAUIAABEgAnoBFIhQiKIAACKIgRAAIAAimIAUAAIBQCKIAAiKIASAAIAACmgAG1g/IgQgSIgSASIgOAAIAXgcIAQAAIAXAcgAj0g/IgRgSIgRASIgOAAIAXgcIAQAAIAWAcgAG6hUIAVgbIASAAIgbAbg");
-	this.shape.setTransform(52.95,12.475);
+	this.shape.graphics.f("#FFFFFF").s().p("AkSBtQgDgDgBgFQABgFADgDQADgEAFAAQAFAAADAEQAEADAAAFQAAAFgEADQgEADgEAAQgFAAgDgDgAF/BAQgNgKAAgQQAAgaAcgKQAPgFAdgEIAAgFQAAgNgDgFQgHgHgOAAQgWAAgEATIgRAAQABgPAKgIQALgLAWAAQATAAALAIQAIAHACAPIAAAQIAAAsQABAVADAKIgQAAIgEgQQgKATgYAAQgQAAgKgIgAGVAPQgQAHAAAOQAAAKAHAGQAFAFALAAQARAAAJgOQAEgIAAgTIAAgLQgZAEgMAGgABhBBQgMgIgCgPQgBgGgBgNIAAhIIASAAIAABIQAAASAEAGQAGAJAPAAQAQAAAHgNQAGgIAAgSIAAhCIARAAIAAAJIABgBIAGgGIADgHIgBgBQgDAAgDgCQgEgEACgGQACgFAEgCQAEgCAEABQAFABACAFQADAFgCAGQgEAPgTAOIAAA+IAAAMIAAAIQAAAJADAHIgSAAIgBgIIgBgIQgEAIgFAEQgJAHgOAAQgOAAgKgHgAkpBAQgNgKAAgQQAAgaAdgKQAPgFAcgEIAAgFQAAgNgEgFQgFgHgOAAQgXAAgEATIgRAAQABgPAJgIQAMgLAWAAQATAAALAIQAIAHACAPIAAAQIAAAsQAAAVAEAKIgQAAIgDgQQgKATgZAAQgQAAgKgIgAkTAPQgQAHAAAOQAAAKAGAGQAHAFAJAAQASAAAJgOQAEgIAAgTIAAgLQgZAEgMAGgAALA8QgCgDAAgGIAAhWIgRAAIAAgOIARAAIAAgiIASAAIAAAiIAcAAIAAAOIgcAAIAAA8IAAAVQABAKALAAQAJAAAJgEIAAAPQgLAEgKAAQgSAAgHgLgAEoBGIgrh3IATAAIAhBjIAhhjIASAAIgqB3gAI5BFIAAhDQAAgUgDgHQgFgLgQAAQgRAAgJAOQgFAJAAAQIAABCIgSAAIAAhNIgBgeIgBgLIAQAAQACAHABAKQAMgUAYAAQAPAAALAIQAJAIABAPIABAWIAABEgAhvBFIAAhDQAAgUgDgHQgGgLgPAAQgRAAgJAOQgGAJAAAQIAABCIgRAAIAAhNIgBgeIgCgLIARAAQADAHgBAKQAMgUAYAAQAQAAAKAIQAKAIABAPIABAWIAABEgAlkBFIAAhDQABgUgEgHQgGgLgPAAQgQAAgJAOQgFAJgBARIAABBIgRAAIAAinIARAAIAAA/QANgRAVAAQAOAAAKAGQAKAHADANQACAHAAAUIAABEgAnoBFIhQiKIAACKIgRAAIAAimIATAAIBRCKIAAiKIASAAIAACmgAG2g/IgRgSIgSASIgOAAIAXgcIARAAIAWAcgAj0g/IgRgSIgRASIgOAAIAXgcIAQAAIAWAcgAG6hUIAVgbIASAAIgbAbg");
+	this.shape.setTransform(47.65,12.475);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 	// Layer_2
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f().s("#FFFFFF").ss(1,1,1).p("AxFjvMAiLAAAIAAHfMgiLAAAg");
-	this.shape_1.setTransform(48.5,12);
+	this.shape_1.graphics.f().s("#FFFFFF").ss(1,1,1).p("AtQjYIahAAIAAGxI6hAAg");
+	this.shape_1.setTransform(48.875,12.05);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-61.9,-13,220.8,50);
+p.nominalBounds = new cjs.Rectangle(-37,-10.6,171.8,45.4);
 
 
 (lib.Symbol7 = function(mode,startPosition,loop) {
@@ -230,13 +230,13 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-27.8,265.59999999999997,153.9);
 	// Layer_1 (mask)
 	var mask = new cjs.Shape();
 	mask._off = true;
-	mask.graphics.p("AuhDOIAAmbIdDAAIAAGbg");
-	mask.setTransform(47.375,15.4);
+	mask.graphics.p("Ap9CjIAAlFIT7AAIAAFFg");
+	mask.setTransform(47.075,14.875);
 
 	// Layer_3
 	this.instance = new lib.Symbol2("synched",0);
 	this.instance.parent = this;
-	this.instance.setTransform(-71.6,14.25,1,1,0,0,0,24.1,34.5);
+	this.instance.setTransform(-43.3,14.25,1,1,0,0,0,24.1,34.5);
 
 	var maskedShapeInstanceList = [this.instance];
 
@@ -244,10 +244,10 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-27.8,265.59999999999997,153.9);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:167.9,y:17.65},23,cjs.Ease.get(1)).wait(67));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:137.15,y:17.65},23,cjs.Ease.get(1)).wait(67));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-45.6,-5.2,186,41.2);
+p.nominalBounds = new cjs.Rectangle(-16.7,-1.4,127.60000000000001,32.6);
 
 
 (lib.Symbol11 = function(mode,startPosition,loop) {
@@ -262,7 +262,7 @@ p.nominalBounds = new cjs.Rectangle(-45.6,-5.2,186,41.2);
 	this.timeline.addTween(cjs.Tween.get(this.instance).to({regY:7.6,scaleX:1.1,scaleY:1.1,x:43.4,y:7.6,alpha:1},11,cjs.Ease.get(1)).to({scaleX:1,scaleY:1},10,cjs.Ease.get(1)).wait(1944));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-72.3,-14.9,242.7,54.8);
+p.nominalBounds = new cjs.Rectangle(-44.9,-12.3,188.70000000000002,49.7);
 
 
 (lib.Symbol5 = function(mode,startPosition,loop) {
@@ -342,7 +342,7 @@ p.nominalBounds = new cjs.Rectangle(8.8,-2.1,128,11.4);
 	// cta
 	this.instance_1 = new lib.Symbol11("synched",0);
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(146.05,387.7,0.85,0.85,0,0,0,43.6,7.9);
+	this.instance_1.setTransform(146,387.75,0.75,0.75,0,0,0,43.6,8);
 	this.instance_1._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(118).to({_off:false},0).wait(105));
@@ -420,9 +420,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg1.jpg?1715679123468", id:"bg1"},
-		{src:"images/bg2.jpg?1715679123468", id:"bg2"},
-		{src:"images/logo.jpg?1715679123468", id:"logo"}
+		{src:"images/bg1.jpg?1715681432107", id:"bg1"},
+		{src:"images/bg2.jpg?1715681432107", id:"bg2"},
+		{src:"images/logo.jpg?1715681432107", id:"logo"}
 	],
 	preloads: []
 };
