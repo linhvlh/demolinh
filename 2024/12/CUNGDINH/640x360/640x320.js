@@ -1484,7 +1484,7 @@ p.nominalBounds = new cjs.Rectangle(-59.6,-74.7,270.8,74.7);
 	this.instance_7.setTransform(144.5,29.7,0.42,0.42,0,0,0,319.9,179.9);
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(35).to({_off:false},0).wait(170));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(10).to({_off:false},0).wait(195));
 
 	// Layer_16
 	this.instance_8 = new lib.bg();
@@ -1595,18 +1595,18 @@ lib.properties = {
 	color: "#666666",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1733816137233", id:"bg"},
-		{src:"images/hoa.png?1733816137233", id:"hoa"},
-		{src:"images/phao01.png?1733816137233", id:"phao01"},
-		{src:"images/phao02.png?1733816137233", id:"phao02"},
-		{src:"images/phao03.png?1733816137233", id:"phao03"},
-		{src:"images/phao04.png?1733816137233", id:"phao04"},
-		{src:"images/sp1.png?1733816137233", id:"sp1"},
-		{src:"images/sp2.png?1733816137233", id:"sp2"},
-		{src:"images/sp3.png?1733816137233", id:"sp3"},
-		{src:"images/t1.png?1733816137233", id:"t1"},
-		{src:"images/t2.png?1733816137233", id:"t2"},
-		{src:"images/talent.png?1733816137233", id:"talent"}
+		{src:"images/bg.jpg?1733816450153", id:"bg"},
+		{src:"images/hoa.png?1733816450153", id:"hoa"},
+		{src:"images/phao01.png?1733816450153", id:"phao01"},
+		{src:"images/phao02.png?1733816450153", id:"phao02"},
+		{src:"images/phao03.png?1733816450153", id:"phao03"},
+		{src:"images/phao04.png?1733816450153", id:"phao04"},
+		{src:"images/sp1.png?1733816450153", id:"sp1"},
+		{src:"images/sp2.png?1733816450153", id:"sp2"},
+		{src:"images/sp3.png?1733816450153", id:"sp3"},
+		{src:"images/t1.png?1733816450153", id:"t1"},
+		{src:"images/t2.png?1733816450153", id:"t2"},
+		{src:"images/talent.png?1733816450153", id:"talent"}
 	],
 	preloads: []
 };
